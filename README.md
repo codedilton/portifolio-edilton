@@ -1,8 +1,8 @@
-# Versão simples do portfólio
+# Portifólio do Edilton
 
-Esta é uma segunda versão do portfólio, feita com uma estrutura mais direta para quem está começando a estudar desenvolvimento web.
+Esta é uma primeira versão do meu portfólio, feita com uma estrutura mais simples e direta para quem está começando a estudar desenvolvimento web.
 
-## Diferenças
+## Características
 
 - HTML semântico com poucos elementos e classes.
 - CSS puro com regras simples.
