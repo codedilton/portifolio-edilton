@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio simples de Edilton, desenvolvedor de sistemas." />
+    <title>Portfólio do Edilton</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <nav aria-label="Navegação principal">
+        <a href="#inicio">Portfólio do Edilton</a>
+        <div class="links">
+          <a href="#sobre">Sobre</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="inicio" id="inicio">
+        <img class="foto-perfil" src="edilton.png" alt="Foto de Edilton" width="800" height="800" />
+        <p>Olá, eu sou</p>
+        <h1>Edilton</h1>
+        <h2>Desenvolvedor de sistemas</h2>
+        <p>Crio páginas simples, responsivas e acessíveis para pessoas e negócios.</p>
+        <a class="botao" href="#projetos">Ver meus projetos</a>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Gosto de aprender como a web funciona e transformar ideias em experiências digitais claras.</p>
+        <p>Atualmente estudo HTML, CSS e JavaScript, praticando com projetos reais e acessíveis.</p>
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <article class="projeto">
+          <h3>TripMe</h3>
+          <p>Landing page de uma empresa de viagens.</p>
+          <a href="https://github.com/codedilton/viagens--landing-page" target="_blank" rel="noreferrer">Ver projeto no GitHub</a>
+        </article>
+        <article class="projeto">
+          <h3>Posting Page</h3>
+          <p>Blog poster para destacar publicações e organizar conteúdos.</p>
+          <a href="https://github.com/codedilton/posting--page" target="_blank" rel="noreferrer">Ver projeto no GitHub</a>
+        </article>
+      </section>
+
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>HTML5 e acessibilidade</li>
+          <li>CSS3 e design responsivo</li>
+          <li>JavaScript</li>
+          <li>Git e GitHub</li>
+        </ul>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <p>Envie uma mensagem para conversar sobre um projeto.</p>
+        <form action="mailto:edilton.dev@example.com" method="post" enctype="text/plain">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Seu email" required />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Edilton</p>
+      <p>
+        <a href="https://github.com/codedilton/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/linkedilton" target="_blank" rel="noreferrer">LinkedIn</a>
+      </p>
+    </footer>
+  </body>
+</html>
